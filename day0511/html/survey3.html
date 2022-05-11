@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<header>
+		<h2>설문지</h2>
+		<p>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</p>
+		<hr>
+	</header>
+	
+	<section>
+		<form action="surveyOK.jsp" method="post">
+		<p>
+		<label>
+			학년 
+			<input type="radio" name="grade" value="1">1학년
+			<input type="radio" name="grade" value="2">2학년
+			<input type="radio" name="grade" value="3">3학년
+			<input type="radio" name="grade" value="4">4학년 
+			<br>
+			</label>
+			</p>
+			
+			<p>
+			<label>
+			성별
+			<input type="radio" name="gender" value="남">남
+			<input type="radio" name="gender" value="여">여<br>
+			</label>
+			</p>
+			
+			<p>
+			<label>
+			관심분야
+			<select name="interests">
+				<option value="모바일 소프트웨어">모바일 소프트웨어</option>
+				<option value="그래픽">그래픽</option>
+				<option value="인공지능">인공지능</option>
+				<option value="머신러닝">머신러닝</option>
+				<option value="웹 소프트웨어">웹 소프트웨어</option>
+			</select><br>
+			</label>
+			</p>
+			
+			<p>
+			<label>
+			진로
+			<input type="checkbox" name="course" value="개발"> 개발
+			<input type="checkbox" name="course" value="기획"> 기획
+			<input type="checkbox" name="course" value="창업"> 영업
+			<input type="checkbox" name="course" value="영업"> 창업<br>
+			</label>
+			</p>
+			
+			<p>
+			<label>
+			남기고 싶은 말<br>
+			<textarea rows="10" cols="50" name="leave" placeholder="글을 남겨주세요"></textarea>
+			</label>
+			</p>
+			
+			<p>
+				<input type="submit" value="확인">
+				<input type="reset" value="취소">
+			</p>
+	
+		</form>
+	</section>
+	
+	<footer>
+		Copyright 2022 by Kitae
+	</footer>
+</body>
+</html>

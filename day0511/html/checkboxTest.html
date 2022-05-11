@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>먹고싶은 것과 취미를 모두 체크하고 성별을 체크하세요</h2>
+	<form action="checkboxResult.jsp" method="post">
+		이름: <input type="text" name="name"><br>
+		
+		짜장면 <input type="checkbox" name="food" value="1">
+		짬뽕 <input type="checkbox" name="food" value="2" checked="checked">
+		탕수육 <input type="checkbox" name="food" value="3"><br>
+		
+		게임 <input type="checkbox" name="hobby" value="게임">
+		영화감상 <input type="checkbox" name="hobby" value="영화감상">
+		노래 <input type="checkbox" name="hobby" value="노래">
+		운동 <input type="checkbox" name="hobby" value="운동" checked="checked">
+		
+		<hr>
+		<input type="radio" name="gender" value="남자">남자
+		<input type="radio" name="gender" value="여자">여자
+		<br>
+		
+		<input type="submit" value="확인">
+	</form>
+</body>
+</html>
