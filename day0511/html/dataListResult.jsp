@@ -16,4 +16,4 @@
 나라: <%=countries %><br>
 보고싶은 것: <%=what %>
 </body>
-</html>
+</html> 
