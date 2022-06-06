@@ -20,4 +20,4 @@
 파티장소: <%=place %><br>
 <hr>
 </body>
-</html>
+</html> 
