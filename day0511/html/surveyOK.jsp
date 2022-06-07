@@ -22,7 +22,7 @@
 	s.setGrade(grade);
 	s.setGender(gender);
 	s.setInterests(interests);
-	s.setCourse(Arrays.toString(course));
+	s.setCourse(Arrays.toString(course)); 
 	s.setLeave(leave);
 	
 	SurveyDAO dao = new SurveyDAO();
